@@ -1,0 +1,110 @@
+.header {
+    
+  background-image:url(/assets/images/background);
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size:cover ;
+  background-repeat: no-repeat;
+  z-index: 2;
+  color: wheat;
+
+}
+
+.header h1 {
+
+  font-size: 50px;
+
+}
+
+.header section span {
+  font-size: 24px;
+}
+
+.header a {
+
+  order: 3;
+
+}
+
+.footer {
+
+  position: relative;
+  z-index: 1;
+  height: 500px;
+  width: 100%;
+  color: white;
+  max-height: 500px;
+
+}
+
+.sec1 {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  z-index: 1;
+
+}
+
+.sec2 {
+
+  position: absolute;
+  top: 0;
+  right:0 ;
+  width: 50%;
+  height: 50%;
+  z-index: 1;
+
+}
+
+.sec3 {
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  z-index: 1;
+
+}
+
+.sec4 {
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;    
+  z-index: 1;
+
+}
+
+div {
+
+  background-color: black;
+  color: wheat;
+  border: solid red 1px;
+  
+
+}
+
+div h1 {
+
+  text-align: center;
+  font-size: 24px;
+  
+
+}
+
+div span {
+
+  text-align: center;
+
+}
